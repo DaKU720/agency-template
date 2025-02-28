@@ -11,9 +11,10 @@ module.exports = {
                 agencyBlack: "#03061e",
                 agencyBackgroundDarker: "#b39de4",
             },
+            fontFamily: {
+                manrope: ['Manrope', 'sans-serif'], // Dodanie czcionki "Manrope"
+            },
         },
     },
     plugins: [],
 };
-
-// TODO: SET BASE COLORS

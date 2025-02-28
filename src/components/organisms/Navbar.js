@@ -9,7 +9,7 @@ const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <nav id="nav" className="container mx-auto flex justify-between items-center py-6 px-8 relative">
-            <div className="text-3xl text-right font-bold bg-gradient-to-r from-purple-400 to-blue-500 text-transparent bg-clip-text">
+            <div className="text-3xl text-right font-bold">
                 <a
                     href="/homepage"
                     aria-label="Homepage"

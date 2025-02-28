@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* global styles*/
+/* global styles */
 body {
-  @apply antialiased bg-agencyBackground text-agencyBlack;
+  @apply antialiased bg-agencyBackground text-agencyBlack font-manrope;
 }
