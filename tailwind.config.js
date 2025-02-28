@@ -7,9 +7,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: "#ccb2ff",
-                blackPrimary: "#03061e",
-                buttonHover: "#b39de4",
+                agencyBackground: "#ccb2ff",
+                agencyBlack: "#03061e",
+                agencyBackgroundDarker: "#b39de4",
             },
         },
     },
