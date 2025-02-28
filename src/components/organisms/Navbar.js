@@ -16,9 +16,10 @@ const Navigation = () => {
             {/* Menu desktop */}
             <div className="hidden md:flex space-x-6" role="navigation">
                 <NavLink onClick={() => scrollToSection('aboutOwner')} label="About" />
-                <NavLink onClick={() => scrollToSection('services')} label="Services" />
-                <NavLink onClick={() => scrollToSection('portfolio')} label="Projects" />
-                <NavLink onClick={() => scrollToSection('contactUs')} label="Contact Me" isHighlighted />
+                <NavLink onClick={() => scrollToSection('services')} label="Team" />
+                <NavLink onClick={() => scrollToSection('portfolio')} label="Services" />
+                <NavLink onClick={() => scrollToSection('portfolio')} label="Clients" />
+                <NavLink onClick={() => scrollToSection('portfolio')} label="Contact" />
             </div>
 
             {/* Przycisk hamburgera dla mobilnych */}
