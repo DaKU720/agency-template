@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet-async";
 import {motion} from "framer-motion"
 
 import Navbar from "../../components/organisms/Navbar"
-import Hero from "../../components/organisms/Hero"
-import Team from "../../components/organisms/Team"
+import Team from "../../components/organisms/Team";
+import Services from "../../components/organisms/Services";
 
 import "../../assets/scss/App.scss"
 
@@ -28,8 +28,8 @@ const PreviewLayout = () => {
                 {/* Website Structure */}
                 <div className="container mx-auto min-h-screen flex flex-col">
                     <Navbar />
-                    <Hero />
                     <Team />
+                    <Services />
                 </div>
             </motion.div>
         </>
