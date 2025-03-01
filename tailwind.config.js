@@ -12,7 +12,7 @@ module.exports = {
                 agencyBackgroundDarker: "#b39de4",
             },
             fontFamily: {
-                manrope: ['Manrope', 'sans-serif'], // Dodanie czcionki "Manrope"
+                manrope: ['Manrope', 'sans-serif'],
             },
         },
     },

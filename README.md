@@ -1,83 +1,40 @@
-# Agency Template
+# Agency Page
 
-A modern, fully responsive one-page agency website built with React.js and Tailwind CSS. This project serves as a showcase of our frontend development skills, focusing on clean design, smooth animations, and performance optimization.
+## Overview
+Agency Page is a collaborative project created by **Fio & DaKU720**. This is a modern web application built with React.js and Tailwind CSS.
 
-## Available Scripts
+## Installation & Setup
+To get started with the project, follow these steps:
 
-In the project directory, you can run:
+### Prerequisites
+Make sure you have **Node.js** installed on your machine. If not, download and install it from [Node.js official website](https://nodejs.org/).
 
-### `yarn start`
+### Install Yarn
+If you don't have Yarn installed, run the following command:
+```sh
+npm install --global yarn
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install Dependencies
+Run the following command to install all required dependencies:
+```sh
+yarn add @testing-library/dom@10.4.0 @testing-library/jest-dom@6.6.3 @testing-library/react@16.2.0 @testing-library/user-event@13.5.0 framer-motion@12.4.7 prop-types@15.8.1 react@19.0.0 react-dom@19.0.0 react-helmet-async@2.0.5 react-router@5.2.0 react-router-dom@5 react-scripts@5.0.1 web-vitals@2.1.4 sass@1.85.1
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Start the Development Server
+To start the development server, run:
+```sh
+yarn start
+```
 
-### `yarn test`
+### Build for Production
+To create a production build, use:
+```sh
+yarn build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more
-information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will
-remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right
-into your project so you have full control over them. All of the commands except `eject` will still work, but they will
-point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you
-shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in
-the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/troubleshooting#yarn-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#yarn-build-fails-to-minify)
+### Run Tests
+To run tests, execute:
+```sh
+yarn test
+```
