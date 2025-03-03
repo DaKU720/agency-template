@@ -9,7 +9,6 @@ import Clients from "../../components/organisms/Clients";
 
 
 import "../../assets/scss/App.scss"
-import { input } from "framer-motion/client";
 
 const PreviewLayout = () => {
     return (
