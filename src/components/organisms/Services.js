@@ -49,6 +49,7 @@ export default function Services() {
   return (
     <div className="py-4 sm:py-6 md:py-16 px-4 sm:px-6 md:px-8">
       <div className="w-full mx-auto space-y-12 sm:space-y-16">
+            <h2 className="text-3xl font-bold mb-4">Services</h2>
         {services.map((service, index) => (
           <div
             key={index}
