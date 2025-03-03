@@ -15,17 +15,17 @@ export default function Hero() {
             <div className="flex flex-col items-center mt-12 md:mt-14">
                 <div className="flex flex-col md:flex-row justify-between gap-4 w-full">
                     <img
-                        src="https://media.discordapp.net/attachments/1313627158479900685/1345125161367502858/Zrzut_ekranu_2025-02-28_o_21.04.24.png?ex=67c368ed&is=67c2176d&hm=12204de105ed91c7416101b42ec089a9d27277a600584c5f0b736a84cfdb8aef&=&format=webp&quality=lossless&width=680&height=700"
+                        src="https://i.imgur.com/7iFovAj.png"
                         alt=""
                         className="w-full md:w-[500px] rounded-3xl"
                     />
                     <img
-                        src="https://media.discordapp.net/attachments/1344625665290276935/1345129082404470885/Zrzut_ekranu_2025-02-28_o_21.22.17.png?ex=67c36c94&is=67c21b14&hm=cd743617ce9a2d5c245dd3db40c7bdfd3db2d33f7db63b13b6de5d2d599a94f6&=&format=webp&quality=lossless&width=676&height=1084"
+                        src="https://i.imgur.com/3e2BLUC.png"
                         alt=""
                         className="w-full md:w-[300px] rounded-3xl"
                     />
                     <img
-                        src="https://media.discordapp.net/attachments/1344625665290276935/1345129082832162927/Zrzut_ekranu_2025-02-28_o_21.22.27.png?ex=67c36c94&is=67c21b14&hm=903b565ef62c14bf23eb8780ad0bb099d674aefd48e863ad2e0dd09d4143b6ea&=&format=webp&quality=lossless&width=1074&height=1084"
+                        src="https://i.imgur.com/c7CdzeI.png"
                         alt=""
                         className="w-full md:w-[500px] rounded-3xl"
                     />
