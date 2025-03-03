@@ -3,9 +3,13 @@ import {motion} from "framer-motion"
 
 import Navbar from "../../components/organisms/Navbar"
 import Hero from "../../components/organisms/Hero"
-import Team from "../../components/organisms/Team"
+import Team from "../../components/organisms/Team";
+import Services from "../../components/organisms/Services";
+import Clients from "../../components/organisms/Clients";
+
 
 import "../../assets/scss/App.scss"
+import { input } from "framer-motion/client";
 
 const PreviewLayout = () => {
     return (
@@ -30,6 +34,8 @@ const PreviewLayout = () => {
                     <Navbar />
                     <Hero />
                     <Team />
+                    <Services />
+                    <Clients />
                 </div>
             </motion.div>
         </>
