@@ -30,7 +30,7 @@ export default function Client() {
   ];
 
   return (
-    <div className="px-4 md:px-8">
+    <div id="clients" className="px-4 md:px-8">
       <p className="self-stretch text-justify mt-4 text-xl md:text-2xl lg:text-4xl leading-relaxed tracking-wide text-agencyTextColor">
         Our efforts have consistently garnered recognition from industry experts due to our distinctive approach and proven track record of delivering results for our clients. We take pride in continually pushing boundaries, delivering exceptional work that truly distinguishes us. However, don't just take our word for it.
       </p>

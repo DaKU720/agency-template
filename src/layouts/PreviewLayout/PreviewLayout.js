@@ -2,6 +2,7 @@ import {motion} from "framer-motion"
 
 import Navbar from "../../components/organisms/Navbar"
 import Hero from "../../components/organisms/Hero"
+import About from "../../components/organisms/About"
 import Team from "../../components/organisms/Team";
 import Services from "../../components/organisms/Services";
 import Clients from "../../components/organisms/Clients";
@@ -22,6 +23,7 @@ const PreviewLayout = () => {
                 <div className="container mx-auto min-h-screen flex flex-col">
                     <Navbar />
                     <Hero />
+                    <About />
                     <Team />
                     <Services />
                     <Clients />
@@ -32,4 +34,4 @@ const PreviewLayout = () => {
     );
 };
 
-export default PreviewLayout;
+export default PreviewLayout

@@ -5,4 +5,4 @@ const extraFooter = () => {
         </div>
     )
 }
-export default extraFooter;
+export default extraFooter

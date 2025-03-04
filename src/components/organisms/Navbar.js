@@ -20,10 +20,10 @@ const Navigation = () => {
 
             {/* Menu desktop */}
             <div className="hidden md:flex space-x-6 items-center" role="navigation">
-                <NavLink onClick={() => scrollToSection('')} label="About" />
-                <NavLink onClick={() => scrollToSection('')} label="Team" />
-                <NavLink onClick={() => scrollToSection('')} label="Services" />
-                <NavLink onClick={() => scrollToSection('')} label="Clients" />
+                <NavLink onClick={() => scrollToSection('about')} label="About" />
+                <NavLink onClick={() => scrollToSection('team')} label="Team" />
+                <NavLink onClick={() => scrollToSection('services')} label="Services" />
+                <NavLink onClick={() => scrollToSection('clients')} label="Clients" />
                 <NavLink onClick={() => scrollToSection('')} label="Contact" />
             </div>
 
