@@ -33,8 +33,10 @@ const teamMembers = [
 
 const Team = () => {
     return (
-        <section className="text-start">
-            <h2 className="text-2xl font-thin mb-4">TEAM</h2>
+        <section id="team" className="text-start">
+            <div className="w-full mt-[9rem] border-t pt-4 border-agencyBlack">
+                <h2>TEAM</h2>
+            </div>
             
             <p className="self-stretch text-justify mt-[5rem] mb-12 text-xl md:text-2xl lg:text-4xl leading-relaxed tracking-wide font-medium text-agencyTextColor">
                 The YouTube Digital Hub team embodies partnership, innovation, and quality. We 
