@@ -6,10 +6,8 @@ export default function Hero() {
                 <p className="text-right">is king</p>
             </div>
 
-            <p className="text-xl pt-20 sm:text-2xl md:text-3xl mb-8 w-full font-bold">
-                Cras vehicula congue nunc a nisi vehicula interdum.
-                Vestibulum volutpat sapien sit amet amet vulputate justo.
-                Praesent id nullam aliquam justo sit amet nullam pharetra libero vulputate lorem pellentesque pulvinar.
+            <p className="self-stretch text-justify mt-8 mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-relaxed tracking-wide text-agencyTextColor">
+                Cultivating popularity for your content within the digital realm is our forte. Leveraging cutting-edge tools and innovative strategies, we possess the know-how to propel your content into the spotlight of online success.
             </p>
 
             <div className="flex flex-col items-center mt-2">
@@ -30,10 +28,8 @@ export default function Hero() {
                         className="w-full md:w-[500px] rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-105"
                     />
                 </div>
-                <p className="text-xl pt-20 sm:text-2xl md:text-3xl mb-2 w-full font-bold">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur malesuada tellus id erat interdum, nec scelerisque nisi cursus.
-                    Praesent facilisis ligula vel diam vulputate tincidunt.
+                <p className="self-stretch text-justify mt-[5rem] mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-relaxed tracking-wide text-agencyTextColor">
+                    Transforming creators into success stories worldwide: YouTube Digital Hub, your trusted official YouTube partner, specializing in elevating content on YouTube and Facebook across the globe.
                 </p>
             </div>
             <div className="flex flex-col md:flex-row gap-10 justify-center w-full mt-[3rem]">

@@ -36,7 +36,7 @@ const Team = () => {
         <section className="text-start">
             <h2 className="text-2xl font-thin mb-4">TEAM</h2>
             
-            <p className="text-xl pt-20 sm:text-2xl md:text-3xl mb-8 w-full font-bold">
+            <p className="self-stretch text-justify mt-[5rem] mb-12 text-xl md:text-2xl lg:text-4xl leading-relaxed tracking-wide font-medium text-agencyTextColor">
                 The YouTube Digital Hub team embodies partnership, innovation, and quality. We 
                 embrace new opportunities and maintain an open dialogue with our clients and partners. 
                 We deliver on our promises and challenge inefficient solutions.
