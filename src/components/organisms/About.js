@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section id="about">
+        <section id="about" className="px-6 md:px-0">
             <p className="self-stretch text-justify mt-[5rem] mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-relaxed tracking-wide text-agencyTextColor">
                 Transforming creators into success stories worldwide: YouTube Digital Hub, your trusted official YouTube partner, specializing in elevating content on YouTube and Facebook across the globe.
             </p>
