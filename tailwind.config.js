@@ -10,7 +10,8 @@ module.exports = {
                 agencyBackground: "#ccb2ff",
                 agencyBlack: "#03061e",
                 agencyBackgroundDarker: "#b39de4",
-                agencyTextColor: "#04061F"
+                agencyTextColor: "#04061F",
+                dakuColor: "#ff4081",
             },
             fontFamily: {
                 manrope: ['Manrope', 'sans-serif'],

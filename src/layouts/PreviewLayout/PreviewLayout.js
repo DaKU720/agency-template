@@ -10,6 +10,7 @@ import Clients from "../../components/organisms/Clients";
 import ExtraFooter from '../../components/organisms/ExtraFooter'
 
 import "../../assets/scss/App.scss"
+import Contact from '../../components/organisms/Contact'
 
 const PreviewLayout = () => {
     return (
@@ -27,6 +28,7 @@ const PreviewLayout = () => {
                     <Team />
                     <Services />
                     <Clients />
+                    <Contact />
                     <ExtraFooter />
                 </div>
             </motion.div>
