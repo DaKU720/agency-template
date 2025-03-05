@@ -31,6 +31,8 @@ export default function Client() {
 
   return (
     <div id="clients" className="px-4 md:px-8">
+      <h2 className="text-3xl font-bold mb-4 text-agencyTextColor">Clients</h2>
+
       <p className="self-stretch text-justify mt-4 text-xl md:text-2xl lg:text-4xl leading-relaxed tracking-wide text-agencyTextColor">
         Our efforts have consistently garnered recognition from industry experts due to our distinctive approach and proven track record of delivering results for our clients. We take pride in continually pushing boundaries, delivering exceptional work that truly distinguishes us. However, don't just take our word for it.
       </p>
@@ -40,7 +42,7 @@ export default function Client() {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index} 
-              className="flex flex-col md:flex-row items-center md:items-start gap-6 p-8 pt-20 border-b text-center md:text-left"
+              className="flex flex-col md:flex-row items-center md:items-start gap-6 p-8 pt-20 border-b border-agencyTextColor text-center md:text-left"
             >
               <img 
                 src={testimonial.image} 

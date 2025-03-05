@@ -60,7 +60,7 @@ export default function Services() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="border-t pt-4 sm:pt-6 md:pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 items-start"
+            className="border-t border-agencyTextColor pt-4 sm:pt-6 md:pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 items-start"
           >
             <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-8 sm:mb-10 md:mb-12 text-agencyTextColor">
               {service.title}
